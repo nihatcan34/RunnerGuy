@@ -6,8 +6,8 @@ public class MoveObstacle : MonoBehaviour
 {
     private float _moveSpeed;
     private float _objectPositionX;
-    [SerializeField]float _limitPositionNegative = -7f;
-    [SerializeField]float _limitPositionPositive= 7f;
+    [SerializeField]private float _limitPositionNegative = -7f;
+    [SerializeField]private float _limitPositionPositive= 7f;
 
     void Start()
     {

@@ -5,7 +5,7 @@ using UnityEngine;
 public class RotatingPlatform : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    float direction;
+    private float _direction;
 
     public enum ObstacleDirection
     {
@@ -23,18 +23,18 @@ public class RotatingPlatform : MonoBehaviour
     {
         if(obstacleDirection == ObstacleDirection.Left2Right)
         {
-            direction = -1;
+            _direction = -1;
         }
         else if (obstacleDirection == ObstacleDirection.Right2Left)
         {
-            direction = 1;
+            _direction = 1;
         }
             
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        transform.Rotate(Vector3.forward * direction * _speed * Time.deltaTime);
+        transform.Rotate(Vector3.forward * _direction * _speed * Time.deltaTime);
     }
 }

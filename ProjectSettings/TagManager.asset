@@ -9,6 +9,7 @@ TagManager:
   - Scanner
   - Rotator
   - Wall
+  - Opponent
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - obstacle
   - rotator
   - rotateplatform
-  - 
+  - finishline
   - 
   - 
   - 
