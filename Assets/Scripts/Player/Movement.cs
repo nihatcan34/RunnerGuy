@@ -8,6 +8,8 @@ public abstract class Movement : MonoBehaviour,IMovement
     [SerializeField] protected float _lerpSpeed = 1f;
     [SerializeField] protected float _maxOffsetX;
 
+    [SerializeField] protected int rank;
+
     private Vector3 _startPosition;
     private Vector3 _pushDir;
 
@@ -93,6 +95,13 @@ public abstract class Movement : MonoBehaviour,IMovement
         }
     }
 
+    public virtual void Finish()
+    {
+        _run = false;
+        _forwardSpeed = 0f;
+        animator.SetTrigger("win");
+    }
+
     IEnumerator Reset()
     {
         yield return new WaitForSeconds(2f);
@@ -107,9 +116,7 @@ public abstract class Movement : MonoBehaviour,IMovement
     {
         yield return new WaitForSeconds(1f);
 
-        _run = false;
-        _forwardSpeed = 0f;
-        animator.SetTrigger("win");
+        Finish();
     }
 
 
@@ -170,6 +177,7 @@ public abstract class Movement : MonoBehaviour,IMovement
 
         if (col.transform.gameObject.layer.Equals(LayerMaskExtensionMethods.LayerMask2Int(LayerManager.Instance.finishline)))
         {
+            rank = RankManager.Instance.GetRank();
             StartCoroutine(FinishLine());
         }
 
