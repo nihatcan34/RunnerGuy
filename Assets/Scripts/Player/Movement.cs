@@ -13,12 +13,12 @@ public abstract class Movement : MonoBehaviour,IMovement
 
     private float _pushForce;
 
-    public Vector3 newPos;
+    protected Vector3 newPos;
 
     public bool _run = false;
 
-    public float newXPos;
-    public float offsetX;
+    protected float newXPos;
+    protected float offsetX;
 
     protected Rigidbody _rb;
 
