@@ -211,6 +211,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 259039409718603365, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1530b28d9e16854abac9a93d62e5f88, type: 2}
     - target: {fileID: 7132284344049948869, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
       propertyPath: m_Name
       value: Girl (1)
@@ -575,6 +579,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 259039409718603365, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1530b28d9e16854abac9a93d62e5f88, type: 2}
     - target: {fileID: 7132284344049948869, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
       propertyPath: m_Name
       value: Girl (7)
@@ -657,6 +665,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 259039409718603365, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1530b28d9e16854abac9a93d62e5f88, type: 2}
     - target: {fileID: 7132284344049948869, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
       propertyPath: m_Name
       value: Girl (6)
@@ -796,10 +808,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _lerpSpeed: 1
   _maxOffsetX: 0.5
-  newPos: {x: 0, y: 0, z: 0}
   _run: 0
-  newXPos: 0
-  offsetX: 0
   animator: {fileID: 545807509}
 --- !u!1001 &306512092
 PrefabInstance:
@@ -907,10 +916,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _lerpSpeed: 1
   _maxOffsetX: 0.5
-  newPos: {x: 0, y: 0, z: 0}
   _run: 0
-  newXPos: 0
-  offsetX: 0
   animator: {fileID: 545807509}
 --- !u!1 &318252380 stripped
 GameObject:
@@ -932,10 +938,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _lerpSpeed: 1
   _maxOffsetX: 0.5
-  newPos: {x: 0, y: 0, z: 0}
   _run: 0
-  newXPos: 0
-  offsetX: 0
   animator: {fileID: 545807509}
 --- !u!1001 &376600243
 PrefabInstance:
@@ -944,6 +947,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 259039409718603365, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1530b28d9e16854abac9a93d62e5f88, type: 2}
     - target: {fileID: 7132284344049948869, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
       propertyPath: m_Name
       value: Girl (5)
@@ -1039,10 +1046,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _lerpSpeed: 1
   _maxOffsetX: 0.5
-  newPos: {x: 0, y: 0, z: 0}
   _run: 0
-  newXPos: 0
-  offsetX: 0
   animator: {fileID: 545807509}
 --- !u!1001 &385708187
 PrefabInstance:
@@ -1133,6 +1137,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 259039409718603365, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1530b28d9e16854abac9a93d62e5f88, type: 2}
     - target: {fileID: 7132284344049948869, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
       propertyPath: m_Name
       value: Girl (2)
@@ -1463,10 +1471,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _lerpSpeed: 1
   _maxOffsetX: 0.5
-  newPos: {x: 0, y: 0, z: 0}
   _run: 0
-  newXPos: 0
-  offsetX: 0
   animator: {fileID: 545807509}
 --- !u!1001 &598403590
 PrefabInstance:
@@ -1475,6 +1480,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 259039409718603365, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1530b28d9e16854abac9a93d62e5f88, type: 2}
     - target: {fileID: 7132284344049948869, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
       propertyPath: m_Name
       value: Girl (8)
@@ -1663,10 +1672,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _lerpSpeed: 1
   _maxOffsetX: 0.5
-  newPos: {x: 0, y: 0, z: 0}
   _run: 0
-  newXPos: 0
-  offsetX: 0
   animator: {fileID: 545807509}
 --- !u!1001 &868426925
 PrefabInstance:
@@ -2048,6 +2054,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 259039409718603365, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1530b28d9e16854abac9a93d62e5f88, type: 2}
     - target: {fileID: 7132284344049948869, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
       propertyPath: m_Name
       value: Girl (3)
@@ -2243,10 +2253,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _lerpSpeed: 1
   _maxOffsetX: 0.5
-  newPos: {x: 0, y: 0, z: 0}
   _run: 0
-  newXPos: 0
-  offsetX: 0
   animator: {fileID: 545807509}
 --- !u!1 &1119848047 stripped
 GameObject:
@@ -2268,10 +2275,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _lerpSpeed: 1
   _maxOffsetX: 0.5
-  newPos: {x: 0, y: 0, z: 0}
   _run: 0
-  newXPos: 0
-  offsetX: 0
   animator: {fileID: 545807509}
 --- !u!1001 &1138664998
 PrefabInstance:
@@ -2280,6 +2284,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 259039409718603365, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1530b28d9e16854abac9a93d62e5f88, type: 2}
     - target: {fileID: 7132284344049948869, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
       propertyPath: m_Name
       value: Girl (4)
@@ -2858,10 +2866,7 @@ MonoBehaviour:
   _forwardSpeed: 5
   _lerpSpeed: 1
   _maxOffsetX: 0.5
-  newPos: {x: 0, y: 0, z: 0}
   _run: 0
-  newXPos: 0
-  offsetX: 0
   animator: {fileID: 545807509}
 --- !u!4 &1609106509 stripped
 Transform:
@@ -3073,6 +3078,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 259039409718603365, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1530b28d9e16854abac9a93d62e5f88, type: 2}
     - target: {fileID: 7132284344049948869, guid: 27cb7c28fc2bb6c47a4faeb3e7309f6a, type: 3}
       propertyPath: m_Name
       value: Girl
@@ -3303,6 +3312,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 278147297907227923, guid: 2ec14acdd2c162e449ff319e4e659239, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ff831cb52fcc48449ff85d47a5f6874, type: 2}
     - target: {fileID: 9040831001663722537, guid: 2ec14acdd2c162e449ff319e4e659239, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -3901,8 +3914,5 @@ MonoBehaviour:
   _forwardSpeed: 5
   _lerpSpeed: 1
   _maxOffsetX: 0.1
-  newPos: {x: 0, y: 0, z: 0}
   _run: 0
-  newXPos: 0
-  offsetX: 0
   animator: {fileID: 9127484294291705931}
